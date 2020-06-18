@@ -1,0 +1,23 @@
+.sortBy {
+    display: flex;
+    flex-flow: row;
+    background-color: #282828;
+    color: whitesmoke;
+    margin-top: 10px
+        /* border: solid; */
+
+}
+
+.sortBy div {
+    margin: auto;
+    width: 200px;
+}
+
+.sort {
+    display: flex;
+}
+
+.sortBy select {
+    margin-left: 14px;
+    width: 100px;
+}

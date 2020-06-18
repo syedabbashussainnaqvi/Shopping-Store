@@ -1,0 +1,46 @@
+.Toolbar {
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row;
+    /* border: solid; */
+    background-color: white;
+}
+
+.Toolbar select {
+    border: none;
+    height: 16px;
+    margin-right: 20px;
+    margin-top: 26px;
+    background-color: whitesmoke;
+}
+
+.Auth {
+    margin-top: 21px;
+    margin-left: auto;
+    font-size: medium;
+}
+
+
+@media (min-width:400px) {
+    .Toolbar {
+        flex-flow: column;
+    }
+
+    .Auth {
+        margin-top: 21px;
+        margin-left: 0px;
+        font-size: medium;
+    }
+}
+
+@media (min-width:800px) {
+    .Toolbar {
+        flex-flow: row;
+    }
+
+    .Auth {
+        margin-top: 21px;
+        margin-left: auto;
+        font-size: medium;
+    }
+}

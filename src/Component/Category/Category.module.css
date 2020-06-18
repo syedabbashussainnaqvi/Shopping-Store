@@ -1,0 +1,13 @@
+.Category {
+    box-sizing: border-box;
+
+}
+
+.Category img {
+    margin: 10px;
+    width: auto;
+}
+
+.Category img:hover {
+    cursor: pointer;
+}
